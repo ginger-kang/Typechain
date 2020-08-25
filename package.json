@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "https://github.com/ginger-kang/Typechain.git",
   "author": "ginger-kang <kdhoon07@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.0.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "yarn tsc"
+  }
 }
